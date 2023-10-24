@@ -50,6 +50,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="indicadoresDesempeño.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="indicadoresDesempeño.Designer.cs">
+      <DependentUpon>indicadoresDesempeño.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +67,11 @@
       <Project>{3da4184f-7a96-429d-9855-38af57c8d429}</Project>
       <Name>CapaLogicaNegocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="indicadoresDesempeño.resx">
+      <DependentUpon>indicadoresDesempeño.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
