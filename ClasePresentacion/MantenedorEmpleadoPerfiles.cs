@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ClasePresentacion
 {
-    public partial class IndicadoresDesempeño : Form
+    public partial class MantenedorEmpleadoPerfiles : Form
     {
-        public IndicadoresDesempeño()
+        public MantenedorEmpleadoPerfiles()
         {
             InitializeComponent();
         }
