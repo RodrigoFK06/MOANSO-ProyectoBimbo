@@ -50,6 +50,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MantenedorBoletasdePago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorBoletasdePago.Designer.cs">
+      <DependentUpon>MantenedorBoletasdePago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorEmpleado.Designer.cs">
+      <DependentUpon>MantenedorEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenedorResoluciondeBono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenedorResoluciondeBono.Designer.cs">
+      <DependentUpon>MantenedorResoluciondeBono.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +79,17 @@
       <Project>{3da4184f-7a96-429d-9855-38af57c8d429}</Project>
       <Name>CapaLogicaNegocio</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MantenedorBoletasdePago.resx">
+      <DependentUpon>MantenedorBoletasdePago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorEmpleado.resx">
+      <DependentUpon>MantenedorEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenedorResoluciondeBono.resx">
+      <DependentUpon>MantenedorResoluciondeBono.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
